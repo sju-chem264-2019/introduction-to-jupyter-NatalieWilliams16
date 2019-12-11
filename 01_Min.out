@@ -1,0 +1,52 @@
+
+          -------------------------------------------------------
+          Amber 18 SANDER                              2018
+          -------------------------------------------------------
+
+| Run on 12/05/2019 at 21:11:05
+
+|   Executable path: sander
+| Working directory: /Users/NatalieWilliams/Documents/Senior year/Computational
+|          Hostname: Unknown
+  [-O]verwriting output
+
+File Assignments:
+|  MDIN: 01_Min.in.txt                                                         
+| MDOUT: 01_Min.out                                                            
+|INPCRD: rst7                                                                  
+|  PARM: parm7                                                                 
+|RESTRT: 01_Min.ncrst                                                          
+|  REFC: refc                                                                  
+| MDVEL: mdvel                                                                 
+| MDFRC: mdfrc                                                                 
+|  MDEN: mden                                                                  
+| MDCRD: mdcrd                                                                 
+|MDINFO: 01_Min.mdinfo/                                                        
+|  MTMD: mtmd                                                                  
+|INPDIP: inpdip                                                                
+|RSTDIP: rstdip                                                                
+|INPTRA: inptraj                                                               
+
+
+ Here is the input file:
+
+Minimize                                                                       
+ &cntrl                                                                        
+  imin=1,                                                                      
+  ntx=1,                                                                       
+  irest=0,                                                                     
+  maxcyc=2000,                                                                 
+  ncyc=1000,                                                                   
+  ntpr=100,                                                                    
+  ntwx=0,                                                                      
+  cut=8.0                                                                      
+/                                                                              
+
+--------------------------------------------------------------------------------
+   1.  RESOURCE   USE: 
+--------------------------------------------------------------------------------
+
+| Flags:                                                                        
+ getting new box info from bottom of inpcrd
+
+  Error opening unit   30: File "rst7" is missing or unreadable                

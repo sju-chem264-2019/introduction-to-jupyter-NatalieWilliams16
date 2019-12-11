@@ -1,0 +1,60 @@
+
+          -------------------------------------------------------
+          Amber 18 SANDER                              2018
+          -------------------------------------------------------
+
+| Run on 12/05/2019 at 20:51:37
+
+|   Executable path: sander
+| Working directory: /Users/NatalieWilliams/Documents/Senior year/Computational
+|          Hostname: Unknown
+  [-O]verwriting output
+
+File Assignments:
+|  MDIN: 03_Prod.in.txt                                                        
+| MDOUT: 03_Prod.out                                                           
+|INPCRD: 02_Heat.ncrst                                                         
+|  PARM: parm7                                                                 
+|RESTRT: 03_Prod.ncrst                                                         
+|  REFC: refc                                                                  
+| MDVEL: mdvel                                                                 
+| MDFRC: mdfrc                                                                 
+|  MDEN: mden                                                                  
+| MDCRD: 03_Prod.nc                                                            
+|MDINFO: 03_Prod.info                                                          
+|  MTMD: mtmd                                                                  
+|INPDIP: inpdip                                                                
+|RSTDIP: rstdip                                                                
+|INPTRA: inptraj                                                               
+
+
+ Here is the input file:
+
+Production                                                                     
+ &cntrl                                                                        
+  imin=0,                                                                      
+  ntx=5,                                                                       
+  irest=1,                                                                     
+  nstlim=30000,                                                                
+  dt=0.002,                                                                    
+  ntf=2,                                                                       
+  ntc=2,                                                                       
+  temp0=300.0,                                                                 
+  ntpr=100,                                                                    
+  ntwx=100,                                                                    
+  cut=8.0,                                                                     
+  ntb=2,                                                                       
+  ntp=1,                                                                       
+  ntt=3,                                                                       
+  gamma_ln=2.0,                                                                
+  ig=-1,                                                                       
+ /                                                                             
+
+--------------------------------------------------------------------------------
+   1.  RESOURCE   USE: 
+--------------------------------------------------------------------------------
+
+| Flags:                                                                        
+ getting new box info from bottom of inpcrd
+
+  Error opening unit   30: File "02_Heat.ncrst" is missing or unreadable                
